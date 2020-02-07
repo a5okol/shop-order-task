@@ -1,0 +1,486 @@
+.App {
+    /*text-align: center;*/
+    background: #e6e9f0;
+    height: 1300px;
+}
+
+.AppLogo {
+    margin-right: 10px;
+    padding-top: 2px;
+    margin-bottom: -2px;
+
+}
+
+.headerBlock {
+    width: 100%;
+    background: #FFFFFF;
+    height: 50px;
+    margin: 0;
+    position: fixed;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, 0%);
+    max-width: 1024px;
+    z-index: 10;
+}
+
+.Term {
+    border-bottom: 1px solid #dcdcdc;
+}
+
+.headerLine {
+    /*margin-top: 20px;*/
+}
+
+.cart {
+    font-family: Helvetica Neue;
+    font-size: 15px;
+    line-height: 13px;
+    /* identical to box height, or 87% */
+    color: #C90EA5;
+}
+
+p.cart {
+    display: contents;
+    margin-block-start: 0 !important;
+    margin-block-end: 0 !important;
+    font-weight: 300 !important;
+}
+
+.AppLogo3 {
+    margin-left: 5px;
+}
+
+.orderNumber {
+    background: #FF1876;
+    border: 1px solid #FFFFFF;
+    border-radius: 37px;
+    font-family: Helvetica Neue;
+    font-size: 9px;
+    line-height: 14px;
+    text-align: center;
+    height: 14px;
+    width: 14px;
+    color: white;
+    position: absolute;
+    top: -17px;
+    left: 348px;
+}
+
+.Navigation {
+    width: 49%;
+    float: left;
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: -10px;
+}
+
+.NavLink {
+    padding-left: 164px;
+}
+
+.rightHead {
+    width: 49%;
+    float: left;
+    position: relative;
+    margin-top: 16px;
+}
+
+.rightHead a {
+    text-decoration: none;
+    float: right;
+    margin-right: 145px;
+}
+
+/* BodyBlock */
+
+.bodyBlock {
+    display: flex;
+    justify-content: center;
+    padding-top: 95px;
+    padding-bottom: 150px;
+    flex-grow: 1;
+    width: 100%;
+
+}
+
+
+.InputStyle1 {
+    color: #0b8043;
+}
+
+.windowBlock {
+    width: 100%;
+    height: 597px;
+    max-width: 700px;
+    background: linear-gradient(180deg, #FFFFFF 0%, #FEFEFE 100%);
+    box-shadow: 0 2px 18px rgba(0, 0, 0, 0.07);
+    border-radius: 5px;
+}
+
+.leftPart {
+    max-width: 100%;
+    float: left;
+    width: 330px;
+    height: 100%;
+    padding: 20px 30px 30px 40px;
+
+}
+
+.EditOrder {
+    font-family: Helvetica Neue;
+    font-size: 12px;
+    line-height: 14px;
+    position: relative;
+    color: #979797;
+    float: right;
+    margin-right: 8px;
+    border-bottom: 1px solid #d9dadd;
+    font-weight: 300;
+}
+
+.miniBlock {
+    margin-bottom: 10px;
+}
+
+.rightPart {
+    max-width: 100%;
+    width: 300px;
+    background: #f2f4f7;
+    height: 100%;
+    float: left;
+    box-sizing: border-box;
+    border-radius: 0 5px 5px 0;
+    padding: 24px 5px 0 10px;
+}
+
+.cartOrder {
+    /*border-bottom: 1px solid #e6e6ea;*/
+    /*margin: 10px 0 10px 0;*/
+}
+
+.productTitle {
+    font-family: Helvetica Neue;
+    font-size: 12px;
+    line-height: 11px;
+    font-weight: 400;
+    color: #777879;
+    margin-block-start: -5px !important;
+    margin-block-end: 5px !important;
+}
+
+.productPrice {
+    font-family: Helvetica Neue;
+    font-size: 12px;
+    line-height: 11px;
+    font-weight: 300;
+    color: #777879;
+    display: inline-block;
+    position: relative;
+    top: -4px;
+
+}
+
+.allTable {
+    width: 100%;
+}
+
+.Table1 {
+    width: 8%;
+    vertical-align: top;
+}
+
+.Table2 {
+    width: 56%;
+}
+
+.NamePrice {
+    font-family: Helvetica Neue;
+    font-size: 12px;
+    line-height: 11px;
+    font-weight: 300;
+    color: #777879;
+    width: 90%;
+}
+
+.totalPriceRight {
+    font-family: Helvetica Neue;
+    font-size: 12px;
+    /*line-height: 11px;*/
+    font-weight: 300;
+    text-align: right;
+    width: 20%;
+    color: #777879;
+}
+
+.totAll {
+    color: #431C5D;
+    font-weight: 500;
+}
+
+/*.allPrise {*/
+    /*margin-bottom: 10px;*/
+    /*border-bottom: 1px solid #e6e6ea;*/
+/*}*/
+
+hr {
+    margin: 8px 0 8px 0;
+    border: 0;
+    border-top: 1px solid #E3E3E3;
+}
+
+.productColor {
+    font-family: Helvetica Neue;
+    font-size: 10px;
+    line-height: 12px;
+    color: #2B2525;
+    margin-bottom: 2px;
+
+}
+
+.productQuantity {
+    font-family: Helvetica Neue;
+    font-size: 10px;
+    line-height: 12px;
+    /* identical to box height, or 120% */
+    color: #2B2525;
+}
+
+.orders {
+    clear: both;
+    margin-top: 30px;
+}
+
+.h3Title {
+    font-family: Helvetica Neue;
+    font-size: 16px;
+    line-height: 18px;
+    color: #5A1094;
+    font-weight: 300;
+    float: left;
+    margin-block-start: 0;
+    margin-block-end: 0px;
+}
+
+.breadText {
+    font-family: Helvetica Neue;
+    font-size: 12px;
+    line-height: 14px;
+    margin-right: 14px;
+    font-weight: 300;
+    color: #acacac;
+    border-bottom: 1px solid #dedede;
+    position: relative;
+    bottom: 8px;
+}
+
+.activeBread {
+    color: #5A1094;
+    border-bottom: none;
+    font-weight: 400;
+}
+
+.DayTime {}
+.DayTime1 {
+    width: 180px!important;
+}
+.DayTime2 {
+    font-family: Helvetica Neue;
+    font-size: 13px;
+    line-height: 12px;
+    color: #777879;
+    font-weight: 300;
+    padding: 10px;
+    width: 85px;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+
+.textRight {
+    display: inline-block;
+    position: relative;
+    top: 5px;
+}
+
+.City {
+    margin: 15px 0 15px 0!important;
+}
+.InputStyle {
+    background: #FFFFFF;
+    border: 1px solid #DEDCDC;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 11px 0 11px 15px;
+    margin: 5px 0 5px 0;
+    font-weight: 300;
+    width: 100%;
+    max-width: 320px;
+    font-family: Helvetica Neue;
+    font-size: 16px;
+    line-height: 18px;
+    color: #6B6B6B;
+    height: 40px;
+}
+
+.CardDate {
+    width: 95px;
+    box-sizing: border-box;
+    float: left;
+    margin: 0 30px 30px 0;
+}
+
+.activeInput {
+    color: #000000;
+    font-weight: 400;
+}
+
+.securePaymentsText {
+    font-family: Helvetica Neue;
+    font-size: 15px;
+    line-height: 18px;
+    color: #6B6B6B;
+    font-weight: 300;
+}
+
+.h1Title {
+    font-family: Helvetica Neue;
+    font-size: 26px;
+    line-height: 28px;
+    font-weight: 300;
+    color: #5A1094;
+    margin-block-end: 15px;
+}
+
+.securePayments {
+    margin-bottom: 20px;
+}
+
+.breadcrumb img {
+    margin-right: 14px;
+}
+
+.imgOrder {
+    box-sizing: border-box;
+    float: left;
+    background: #F3F3F3;
+    border: 1px solid #E3E3E3;
+    height: 47px;
+    width: 47px;
+    border-radius: 2px;
+}
+
+.detailsOfOrder {
+    width: auto;
+    box-sizing: border-box;
+    float: left;
+}
+
+/*.imgOrder img {*/
+    /*!*background: #F3F3F3;*!*/
+    /*!*border: 1px solid #E3E3E3;*!*/
+    /*!*border-radius: 2px;*!*/
+    /*height: 45px;*/
+    /*width: 45px;*/
+/*}*/
+
+.Table2 p {
+    margin: 0;
+    padding: 0;
+    margin-block-start: 0 !important;
+    margin-block-end: 0 !important;
+}
+
+.ButtonClick {
+    background: rgba(90, 16, 148, 0.8);
+    border: 1px solid rgba(67, 28, 93, 0.8);
+    box-sizing: border-box;
+    border-radius: 5px;
+    width: 180px;
+    height: 45px;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    outline: 0 !important;
+}
+
+.formControl {
+    background: #FFFFFF;
+    border: 1px solid #DEDCDC;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin: 5px 20px 20px 0;
+    width: 180px;
+    height: 40px;
+    font-size: 16px;
+    line-height: 18px;
+    color: #000000;
+    float: left;
+}
+
+.small-type-right {
+    width: 120px;
+}
+
+.endBlock {
+    padding-top: 24px;
+}
+
+.textBlock {
+    padding-left:5px;
+}
+
+.endh1 {
+    font-size: 25px;
+    line-height: 31px;
+    color: #5A1094;
+    font-weight: 300;
+}
+.endPBold {
+    font-size: 16px;
+    line-height: 19px;
+    color: #2B2525;
+    font-weight: 500;
+    margin: 30px 0 0 0;
+}
+
+.endText {
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 300;
+    margin: 11px 20px 30px 0;
+    color: #2B2525;
+}
+
+.endText a {
+    color: #2B2525;
+}
+
+.endLink {
+    font-family: Helvetica Neue;
+    font-size: 13px;
+    line-height: 13px;
+    color: #5A1094;
+    text-decoration: underline;
+
+}
+
+.bottomOrderText {
+    font-size: 10px;
+    line-height: 12px;
+    color: #9C9C9C;
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+    height: 225px;
+    left: 25px;
+    font-weight: 300;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
